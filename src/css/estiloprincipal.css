@@ -1,0 +1,208 @@
+.formulario-en-linea {
+    display: flex;
+    align-items: center;
+}
+
+.formulario-en-linea input[type="text"],
+.formulario-en-linea input[type="password"] {
+    margin-right: 10px;
+    width: 150px; /* Cambia el valor según tu preferencia */
+}
+
+.formulario-en-linea button {
+    margin-right: 10px;
+}
+header {
+    background-color: #007bff; /* Color de fondo azul */
+    display: flex; /* Usar flexbox */
+    justify-content: flex-start; /* Alinear elementos a la izquierda */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+.header-items {
+    text-align: center; /* Centrar los elementos horizontalmente */
+}
+body{
+    background-color: #0056b3;
+    margin: 0;
+}
+/* Estilo para la imagen dentro del header */
+header img {
+    width: auto; /* Ancho automático */
+    height: 90%; /* Altura 100% del header */
+    max-height: 100px; /* Altura máxima de la imagen */
+    margin-right: 10%; /* Espaciado derecho */
+}
+
+/* Estilo para los elementos dentro del header */
+header form, header button {
+
+    margin-right: 20px; /* Espaciado derecho entre elementos */
+}
+
+header form input, header button {
+    padding: 5px 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+
+}
+header p {
+    margin: 0; /* Eliminar margen superior e inferior */
+}
+
+header p a {
+    color: rgb(255, 166, 0); /* Color del texto blanco */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none; /* Sin subrayado */
+    margin-right: 10px; /* Espaciado derecho entre enlaces */
+}
+.container form {
+    max-width: 40%;
+    max-height: 20%; /* Ancho máximo del formulario */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0acfa5; /* Color de fondo del formulario */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto; /* Auto-margin para centrar horizontalmente */
+    text-align: center; /* Alinear el texto al centro */
+    box-sizing: border-box; /* Incluir el padding y borde en el ancho */
+}
+
+.container form label,
+.container form input[type="email"],
+.container form input[type="text"],
+.container form input[type="password"],
+.container form input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container form input[type="email"],
+.container form input[type="text"],
+.container form input[type="password"],
+.container form input[type="submit"] {
+    width: calc(100% - 40px); /* Restar el padding del ancho total */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container form input[type="submit"] {
+    background-color: #007bff;
+    color:yellowgreen;
+    cursor: pointer;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.container h2 {
+    text-align: center; /* Centrar el texto horizontalmente */
+    font-family: Arial, Helvetica, sans-serif; /* Estilo de letra */
+    font-size: 24px; /* Tamaño de letra */
+    color: white; /* Color del texto */
+}
+
+
+h3{
+    text-align: left;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+#bedbo {
+    padding: 10px 20px; /* Padding interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    background-color: orange; /* Color de fondo */
+    color: white; /* Color de texto */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave de color de fondo */
+}
+
+/* Estilos para el botón al pasar el ratón */
+#bedbo:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón */
+}
+#container {
+    max-width: 30%; /* Reducimos el ancho máximo del contenedor */
+    padding: 5px; /* Reducimos el padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0acfa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 0px; /* Reducimos el margen inferior */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 1px; /* Reducimos el padding */    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; /* Tamaño de fuente más pequeño */
+    color: white;
+}
+
+input[type="date"] {
+    width: 50%;
+    padding: 2px; /* Reducimos el padding */
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: content-box;
+}
+
+
+p {color: rgb(255, 166, 0); /* Color del texto blanco */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none; /* Sin subrayado */
+    margin-right: 10px; 
+}
+.noticia {
+    border-top: 1px solid orange; /* Borde superior para cada noticia */
+    border-bottom: 1px solid orange; /* Borde inferior para cada noticia */
+    margin-bottom: 20px; /* Espacio entre noticias */
+    padding: 10px; /* Espaciado interno de cada noticia */
+}
+
+.titulo-noticia {
+    color: #333; /* Color del título de la noticia */
+    font-size: 24px; /* Tamaño del título de la noticia */
+}
+
+.cuerpo-noticia {
+    color: red; /* Color del cuerpo de la noticia */
+    font-size: 18px; /* Tamaño del cuerpo de la noticia */
+}
+
+.autor,
+.fecha {
+    color: yellow; /* Color del autor y la fecha */
+    font-size: 14px; /* Tamaño del autor y la fecha */
+}
